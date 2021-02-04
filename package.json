@@ -1,0 +1,19 @@
+{
+  "name": "webble-website",
+  "version": "1.0.0",
+  "description": "Main webpage of Webble.se",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:client",
+    "test:client": "docker exec -it project_client_1 npm test",
+    "lint:fix": "docker exec -it project_client_1 npm lint:fix",
+    "test-client": "cd client && npm run test",
+    "test-api": "cd api && npm run test",
+    "lint-client": "cd client && npm run lint",
+    "lint-api": "cd api && npm run lint",
+    "build-client": "cd client && npm install && npm run build",
+    "build-api": "cd api && npm install && npm start"
+  },
+  "license": "ISC",
+  "dependencies": {}
+}
