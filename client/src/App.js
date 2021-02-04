@@ -1,11 +1,54 @@
+import './App.css';
 import Navbar from './components/navbar/Navbar'
+import Hero from './components/hero/Hero'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar></Navbar>
+      <header>
+        <Navbar />
+        <Hero />
       </header>
+
+      <main>
+        <div>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+          <p>Lorem ipsum .....</p>
+        </div>
+      </main>
     </div>
   );
 }

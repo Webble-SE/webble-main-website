@@ -1,38 +1,23 @@
-import './style.css';
+import './Navbar.css';
+import logo from '../../img/branding/webble.svg';
 
 function Navbar() {
-  /* Open when someone clicks on the span element */
-  function openNav() {
-    document.getElementById("myNav").style.width = "320px";
-  }
-
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
-
   return (
-    <nav role="navigation">
-      {/* The overlay */}
-      <div id="myNav" className="overlay">
-
-        {/* Button to close the overlay navigation */}
-        <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
-
-        {/* Overlay content */}
-        <div classname="overlay-content">
-          <a href="#">Hem</a>
-          <a href="#">Om oss</a>
-          <a href="#">Tjänster</a>
-          <a href="#">Portfolio</a>
-          <a href="#">Kontakt</a>
-        </div>
-
-      </div>
-
-      {/* Use any element to open/show the overlay navigation menu */}
-      <span onClick={openNav}>Meny</span>
-    </nav>
+    <div className='navbar'>
+          <a href='#' className='pageHeader__logo-holder'>
+            <img className='pageHeader__logo' src={logo} alt=''/>
+          </a>
+          <button type='button' className='menuButton'>
+          <div className='menuButton__inner'>
+              <span className='menuButton__label'>Meny</span>
+              <span className='menuButton__icon'>
+                  <span className='menuButton__icon-line'></span>
+                  <span className='menuButton__icon-line'></span>
+                  <span className='menuButton__icon-line'></span>
+              </span>
+          </div>
+      </button>
+    </div>
   );
 }
 
