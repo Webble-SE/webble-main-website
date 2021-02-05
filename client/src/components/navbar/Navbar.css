@@ -13,15 +13,15 @@
   background-color: #ffffff;
 }
 
-.pageHeader__logo-holder {
+.navbar-logo-holder {
   transition: .25s;
 }
 
-.pageHeader__logo {
+.navbar-logo {
   width: 200px;
 }
 
-.menuButton {
+.menu-button {
   position: absolute;
   right: 0;
   top: 0;
@@ -46,7 +46,7 @@
   bottom: 0;
 }
 
-.menuButton__inner {
+.menu-button-inner {
   font-size: 100%;
   line-height: 1.15;
   text-transform: none;
@@ -59,7 +59,7 @@
   align-items: center;
 }
 
-.menuButton__label {
+.menu-button-label {
   line-height: 1.15;
   color: #2c2c2b;
   cursor: pointer;
@@ -72,7 +72,7 @@
   font-weight: 900;
 }
 
-.menuButton__icon {
+.menu-button-icon {
   font-size: 100%;
   line-height: 1.15;
   text-transform: none;
@@ -87,7 +87,7 @@
   display: block;
 }
 
-.menuButton__icon-line {
+.menu-button-icon-line {
   font-size: 100%;
   line-height: 1.15;
   text-transform: none;
@@ -104,19 +104,15 @@
   right: 10px;
 }
 
-.menuButton__icon-line:nth-child(2) {
+.menu-button-icon-line:nth-child(2) {
   top: 50%;
   margin-top: -1px;
 }
 
-.menuButton__icon-line:nth-child(3) {
+.menu-button-icon-line:nth-child(3) {
   top: 100%;
   margin-top: -2px;
   width: 50%;
   background-color: #d10000;
   transition: .25s;
-}
-
-.menuButton__icon-line:nth-child(3):hover {
-  width: 100%; /* Doesn't fucking work! D: */
 }

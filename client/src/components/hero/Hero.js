@@ -8,7 +8,7 @@ function Navbar() {
     <section className='hero' id='hero'>
         <div className='video-overlay'></div>
         <div className='video-wrap'>
-            <video autoplay='autoplay' muted='muted' loop='loop' poster={videoPoster} className='bg-video'>
+            <video autoPlay='autoplay' muted='muted' loop='loop' poster={videoPoster} className='bg-video'>
                 <source src={video} type='video/mp4' />
             </video>
         </div>
