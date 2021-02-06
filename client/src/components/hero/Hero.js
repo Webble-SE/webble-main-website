@@ -28,20 +28,4 @@ function Navbar() {
   );
 }
 
-{/* <video playsinline autoplay='true' muted loop poster={videoPoster} id='bgvid'>
-<source src={video} type='video/mp4' />
-</video>
-
-<div className='viewport-header'>
-<h1>En formstark reklam- och webbyrå
-</h1>
-
-<p>
-Kommunikation på papper, bioduk, skärm och i mobilen. Vi tar fram kreativa lösningar för 
-hur dina mål ska uppnås och tänker på helheten. Välkommen till Webble.
-</p>
-
-<button>Läs mer</button>
-</div> */}
-
 export default Navbar;
