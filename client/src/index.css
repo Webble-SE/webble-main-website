@@ -25,6 +25,12 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* White frame around the page */
+body {
+  margin: 0 30px 30px 30px;
+}
+
+
 p, h1, h2, h3, h4, h5, h6 {
   margin: 12px;
 }
