@@ -33,5 +33,16 @@
   position: relative;
   top: 200px;
   z-index: 5;
-  padding: 50px 500px;
+}
+
+.hero-heading {
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+/* Typewriter */
+
+.typewrite {
+  color: #fff;
+  text-decoration: none;
 }
