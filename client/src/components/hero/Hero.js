@@ -73,7 +73,7 @@ function Navbar() {
                 <div>
                     <h1 className='hero-heading'>Vi skapar
                       <span className="typewrite" data-period='2000' data-type='[ " snygga", " snabba", " responsiva" ]'>
-                        <span class="wrap"></span>
+                        <span className="wrap"></span>
                       </span>
                       <br />hemsidor för framtiden
                     </h1>
