@@ -2,3 +2,14 @@
 main {
   position: relative;
 }
+
+main div { 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.separator {
+  border-top: 3px solid #dd0001;
+  max-width: 20%;
+  margin: auto;
+}
