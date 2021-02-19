@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/webble-main-website/static/css/main.085d6182.chunk.css",
-    "main.js": "/webble-main-website/static/js/main.6ccf61d1.chunk.js",
-    "main.js.map": "/webble-main-website/static/js/main.6ccf61d1.chunk.js.map",
-    "runtime-main.js": "/webble-main-website/static/js/runtime-main.238373c1.js",
-    "runtime-main.js.map": "/webble-main-website/static/js/runtime-main.238373c1.js.map",
-    "static/js/2.29eb129b.chunk.js": "/webble-main-website/static/js/2.29eb129b.chunk.js",
-    "static/js/2.29eb129b.chunk.js.map": "/webble-main-website/static/js/2.29eb129b.chunk.js.map",
-    "static/js/3.b2234cfa.chunk.js": "/webble-main-website/static/js/3.b2234cfa.chunk.js",
-    "static/js/3.b2234cfa.chunk.js.map": "/webble-main-website/static/js/3.b2234cfa.chunk.js.map",
-    "index.html": "/webble-main-website/index.html",
-    "static/css/main.085d6182.chunk.css.map": "/webble-main-website/static/css/main.085d6182.chunk.css.map",
-    "static/js/2.29eb129b.chunk.js.LICENSE.txt": "/webble-main-website/static/js/2.29eb129b.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/webble-main-website/static/media/Geomanist.6488176a.woff2",
-    "static/media/hero-poster.93409e96.jpg": "/webble-main-website/static/media/hero-poster.93409e96.jpg",
-    "static/media/hero.27891586.mp4": "/webble-main-website/static/media/hero.27891586.mp4",
-    "static/media/webble.63508849.svg": "/webble-main-website/static/media/webble.63508849.svg"
+    "main.css": "/static/css/main.33eed069.chunk.css",
+    "main.js": "/static/js/main.6ccf61d1.chunk.js",
+    "main.js.map": "/static/js/main.6ccf61d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.39aa412b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.39aa412b.js.map",
+    "static/js/2.29eb129b.chunk.js": "/static/js/2.29eb129b.chunk.js",
+    "static/js/2.29eb129b.chunk.js.map": "/static/js/2.29eb129b.chunk.js.map",
+    "static/js/3.b2234cfa.chunk.js": "/static/js/3.b2234cfa.chunk.js",
+    "static/js/3.b2234cfa.chunk.js.map": "/static/js/3.b2234cfa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.33eed069.chunk.css.map": "/static/css/main.33eed069.chunk.css.map",
+    "static/js/2.29eb129b.chunk.js.LICENSE.txt": "/static/js/2.29eb129b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Geomanist.6488176a.woff2",
+    "static/media/hero-poster.93409e96.jpg": "/static/media/hero-poster.93409e96.jpg",
+    "static/media/hero.27891586.mp4": "/static/media/hero.27891586.mp4",
+    "static/media/webble.63508849.svg": "/static/media/webble.63508849.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.238373c1.js",
+    "static/js/runtime-main.39aa412b.js",
     "static/js/2.29eb129b.chunk.js",
-    "static/css/main.085d6182.chunk.css",
+    "static/css/main.33eed069.chunk.css",
     "static/js/main.6ccf61d1.chunk.js"
   ]
 }
