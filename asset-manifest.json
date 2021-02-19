@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33eed069.chunk.css",
+    "main.js": "/static/js/main.6ccf61d1.chunk.js",
+    "main.js.map": "/static/js/main.6ccf61d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.39aa412b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.39aa412b.js.map",
+    "static/js/2.29eb129b.chunk.js": "/static/js/2.29eb129b.chunk.js",
+    "static/js/2.29eb129b.chunk.js.map": "/static/js/2.29eb129b.chunk.js.map",
+    "static/js/3.b2234cfa.chunk.js": "/static/js/3.b2234cfa.chunk.js",
+    "static/js/3.b2234cfa.chunk.js.map": "/static/js/3.b2234cfa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.33eed069.chunk.css.map": "/static/css/main.33eed069.chunk.css.map",
+    "static/js/2.29eb129b.chunk.js.LICENSE.txt": "/static/js/2.29eb129b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Geomanist.6488176a.woff2",
+    "static/media/hero-poster.93409e96.jpg": "/static/media/hero-poster.93409e96.jpg",
+    "static/media/hero.27891586.mp4": "/static/media/hero.27891586.mp4",
+    "static/media/webble.63508849.svg": "/static/media/webble.63508849.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39aa412b.js",
+    "static/js/2.29eb129b.chunk.js",
+    "static/css/main.33eed069.chunk.css",
+    "static/js/main.6ccf61d1.chunk.js"
+  ]
+}
