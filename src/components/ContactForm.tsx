@@ -17,7 +17,7 @@ export function ContactForm({ source = "/kontakt" }: { source?: string }) {
       <div className="text-center">
         <p className="eyebrow">Skickat</p>
         <h3 className="mt-4 text-2xl text-ink">Tack. Vi hör av oss.</h3>
-        <p className="mt-4 text-base leading-relaxed text-ink/70">{state.message}</p>
+        <p className="mt-4 text-base leading-relaxed text-paper-dim">{state.message}</p>
       </div>
     );
   }
@@ -72,7 +72,7 @@ export function ContactForm({ source = "/kontakt" }: { source?: string }) {
           placeholder="ERT MEDDELANDE"
         />
       </label>
-      <label className="flex items-start gap-3 text-sm leading-relaxed text-ink/75">
+      <label className="flex items-start gap-3 text-sm leading-relaxed text-paper-dim">
         <input
           id="consent"
           type="checkbox"

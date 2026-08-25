@@ -5,7 +5,7 @@ type LogoProps = {
   className?: string;
 };
 
-export function Logo({ variant = "light", className = "h-8 w-auto" }: LogoProps) {
+export function Logo({ variant = "dark", className = "h-8 w-auto" }: LogoProps) {
   const src = variant === "light" ? "/branding/webble-white.svg" : "/branding/webble.svg";
 
   return (

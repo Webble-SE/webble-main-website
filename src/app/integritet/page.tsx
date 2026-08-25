@@ -25,14 +25,14 @@ export default function PrivacyPage() {
             .
           </p>
           <div>
-            <h2 className="text-2xl text-paper">Vad vi samlar in</h2>
+            <h2 className="text-2xl text-ink">Vad vi samlar in</h2>
             <p className="mt-3">
               Via formuläret: namn, e-post, telefon, företag och meddelande. Ni lämnar
               uppgifterna frivilligt för att vi ska kunna svara på en förfrågan.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl text-paper">Varför</h2>
+            <h2 className="text-2xl text-ink">Varför</h2>
             <p className="mt-3">
               Ändamålet är kunddialog och offert. Rättslig grund är samtycke samt
               berättigat intresse att besvara er förfrågan. Vi använder inte uppgifterna
@@ -40,14 +40,14 @@ export default function PrivacyPage() {
             </p>
           </div>
           <div>
-            <h2 className="text-2xl text-paper">Hur länge</h2>
+            <h2 className="text-2xl text-ink">Hur länge</h2>
             <p className="mt-3">
               Förfrågningar som inte leder till uppdrag raderas eller anonymiseras inom
               24 månader. Avtals- och fakturaunderlag sparas enligt bokföringslagen.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl text-paper">Era rättigheter</h2>
+            <h2 className="text-2xl text-ink">Era rättigheter</h2>
             <p className="mt-3">
               Ni kan begära registerutdrag, rättelse eller radering. Kontakta oss så
               hanterar vi det. Klagomål kan lämnas till Integritetsskyddsmyndigheten.

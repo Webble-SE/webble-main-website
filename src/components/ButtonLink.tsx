@@ -4,7 +4,9 @@ const styles = {
   primary:
     "border-red bg-red text-white hover:bg-red-dark hover:border-red-dark",
   outline:
-    "border-red bg-transparent text-paper hover:bg-red hover:text-white",
+    "border-red bg-transparent text-ink hover:bg-red hover:text-white",
+  onDark:
+    "border-red bg-transparent text-white hover:bg-red hover:text-white",
   dark: "border-ink bg-transparent text-ink hover:bg-red hover:border-red hover:text-white",
 } as const;
 

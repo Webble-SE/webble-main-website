@@ -5,7 +5,7 @@ export function Marquee() {
 
   return (
     <div className="overflow-hidden border-y border-line bg-ink-soft py-4">
-      <div className="marquee-track flex w-max gap-10 pr-10 text-sm font-bold uppercase tracking-[0.22em] text-paper/55">
+      <div className="marquee-track flex w-max gap-10 pr-10 text-sm font-bold uppercase tracking-[0.22em] text-ink/45">
         {items.map((item, index) => (
           <span key={`${item}-${index}`} className="flex items-center gap-10">
             {item}

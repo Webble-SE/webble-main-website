@@ -8,7 +8,7 @@ export function Footer() {
 
   return (
     <footer className="pb-20 lg:pb-0">
-      <div className="border-t border-line bg-ink-soft px-4 py-12 sm:px-5 md:px-8 md:py-16">
+      <div className="border-t border-line bg-[linear-gradient(135deg,#f5f5f5_0%,#ececec_100%)] px-4 py-12 sm:px-5 md:px-8 md:py-16">
         <div className="mx-auto max-w-7xl">
           <Logo className="h-9 w-auto md:h-12" />
           <p className="mt-6 max-w-xl text-base leading-relaxed text-paper-dim md:text-lg">
@@ -43,7 +43,7 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-2 bg-[#131313] px-4 py-4 text-sm text-paper/70 sm:flex-row sm:items-center sm:justify-between sm:px-5 md:px-8">
+      <div className="flex flex-col gap-2 bg-[#131313] px-4 py-4 text-sm text-white/70 sm:flex-row sm:items-center sm:justify-between sm:px-5 md:px-8">
         <p>© Copyright {year} — {site.name}</p>
         <p className="sm:text-right">Vi skapar webblösningar med ❤️</p>
       </div>

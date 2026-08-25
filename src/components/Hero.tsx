@@ -17,8 +17,8 @@ export function Hero() {
           <source src="/video/hero.mp4" type="video/mp4" />
         </video>
       </div>
-      <div className="absolute inset-0 -z-10 bg-ink/70" />
-      <div className="absolute inset-0 -z-10 grid-fade opacity-40" />
+      <div className="absolute inset-0 -z-10 bg-black/70" />
+      <div className="absolute inset-0 -z-10 grid-fade-on-dark opacity-40" />
 
       <div className="mx-auto w-full max-w-7xl px-4 py-20 text-center sm:px-5 md:px-8 md:py-32">
         <p className="eyebrow">Webbyrå · Sverige · 2026</p>
@@ -29,7 +29,7 @@ export function Hero() {
           </span>
           hemsidor för framtiden
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-paper-dim sm:text-lg md:mt-8 md:text-xl">
+        <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg md:mt-8 md:text-xl">
           Vi kan inte se in i framtiden, men vi kan förbereda er för den. Med samlad
           kunskap och raka råd gör vi det komplicerade enkelt åt er.
         </p>
@@ -37,7 +37,9 @@ export function Hero() {
           <ButtonLink href="/kontakt" variant="primary">
             Starta ett projekt
           </ButtonLink>
-          <ButtonLink href="/tjanster">Se tjänster</ButtonLink>
+          <ButtonLink href="/tjanster" variant="onDark">
+            Se tjänster
+          </ButtonLink>
         </div>
       </div>
     </section>

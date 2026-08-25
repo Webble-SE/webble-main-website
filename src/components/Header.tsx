@@ -23,7 +23,7 @@ export function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-ink/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-line bg-paper/95 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-5 md:px-8 md:py-4">
         <Logo className="h-7 w-auto sm:h-8" />
         <nav className="hidden items-center gap-6 xl:gap-8 lg:flex" aria-label="Huvudmeny">
@@ -34,7 +34,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={`text-[12px] font-bold uppercase tracking-[0.16em] transition xl:text-[13px] xl:tracking-[0.18em] ${
-                  active ? "text-red" : "text-paper/80 hover:text-paper"
+                  active ? "text-red" : "text-ink/80 hover:text-ink"
                 }`}
               >
                 {item.label}
@@ -43,14 +43,14 @@ export function Header() {
           })}
           <Link
             href="/kontakt"
-            className="border-2 border-red px-5 py-2.5 text-[12px] font-bold uppercase tracking-[0.16em] text-paper transition hover:bg-red xl:px-6"
+            className="border-2 border-red px-5 py-2.5 text-[12px] font-bold uppercase tracking-[0.16em] text-ink transition hover:bg-red hover:text-white xl:px-6"
           >
             Starta projekt
           </Link>
         </nav>
         <button
           type="button"
-          className="flex min-h-11 items-center gap-3 text-paper lg:hidden"
+          className="flex min-h-11 items-center gap-3 text-ink lg:hidden"
           aria-expanded={open}
           aria-controls={menuId}
           aria-label={open ? "Stäng meny" : "Öppna meny"}
@@ -61,12 +61,12 @@ export function Header() {
           </span>
           <span className="relative block h-4 w-7" aria-hidden>
             <span
-              className={`absolute right-0 left-0 h-0.5 bg-paper transition ${
+              className={`absolute right-0 left-0 h-0.5 bg-ink transition ${
                 open ? "top-1/2 rotate-45" : "top-0"
               }`}
             />
             <span
-              className={`absolute top-1/2 right-0 left-0 h-0.5 -translate-y-1/2 bg-paper transition ${
+              className={`absolute top-1/2 right-0 left-0 h-0.5 -translate-y-1/2 bg-ink transition ${
                 open ? "opacity-0" : "opacity-100"
               }`}
             />
@@ -82,14 +82,14 @@ export function Header() {
       {open ? (
         <div
           id={menuId}
-          className="fixed inset-x-0 bottom-0 top-[57px] z-40 flex flex-col overflow-y-auto bg-ink px-6 py-8 lg:hidden"
+          className="fixed inset-x-0 bottom-0 top-[57px] z-40 flex flex-col overflow-y-auto bg-paper px-6 py-8 lg:hidden"
         >
           <nav className="flex flex-col gap-5" aria-label="Mobilmeny">
             {nav.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="display text-3xl text-paper sm:text-4xl"
+                className="display text-3xl text-ink sm:text-4xl"
                 onClick={close}
               >
                 {item.label}

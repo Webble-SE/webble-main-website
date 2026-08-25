@@ -49,7 +49,7 @@ export default async function HomePage() {
           </div>
           <dl className="mt-12 grid grid-cols-2 gap-px bg-line md:mt-16 md:grid-cols-4">
             {stats.map((stat) => (
-              <div key={stat.label} className="bg-ink px-4 py-6 sm:px-5 sm:py-8">
+              <div key={stat.label} className="bg-paper px-4 py-6 sm:px-5 sm:py-8">
                 <dt className="display text-2xl text-red sm:text-3xl md:text-4xl">{stat.value}</dt>
                 <dd className="mt-2 text-xs leading-relaxed text-paper-dim sm:mt-3 sm:text-sm">{stat.label}</dd>
               </div>
@@ -88,7 +88,7 @@ export default async function HomePage() {
               <article
                 key={item.slug}
                 className={`flex flex-col border p-6 sm:p-7 ${
-                  "featured" in item && item.featured ? "border-red bg-ink" : "border-line bg-ink"
+                  "featured" in item && item.featured ? "border-red bg-paper" : "border-line bg-paper"
                 }`}
               >
                 <p className="eyebrow">{item.cadence}</p>
@@ -112,7 +112,7 @@ export default async function HomePage() {
           />
           <div className="mt-10 grid gap-4 sm:mt-12 sm:gap-6 md:grid-cols-3">
             {principles.map((item) => (
-              <article key={item.title} className="border border-line bg-ink p-6 sm:p-7">
+              <article key={item.title} className="border border-line bg-paper p-6 sm:p-7">
                 <h3 className="text-xl sm:text-2xl">{item.title}</h3>
                 <p className="mt-4 text-sm leading-relaxed text-paper-dim sm:text-base">{item.text}</p>
               </article>

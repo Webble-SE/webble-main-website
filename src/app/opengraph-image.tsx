@@ -14,9 +14,10 @@ export default function Image() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "#0b0b0b",
-          color: "#f4f0ea",
+          background: "#ffffff",
+          color: "#2c2c2b",
           padding: 72,
+          borderBottom: "16px solid #dd0001",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 28, letterSpacing: 6 }}>
@@ -27,11 +28,11 @@ export default function Image() {
           <div style={{ fontSize: 64, lineHeight: 1.05, letterSpacing: 2, textTransform: "uppercase" }}>
             Vi skapar hemsidor för framtiden
           </div>
-          <div style={{ fontSize: 28, color: "#d8d2c8", maxWidth: 820 }}>
+          <div style={{ fontSize: 28, color: "#5c5c5b", maxWidth: 820 }}>
             Serverrenderat. Redigerbart. Byggt för att sälja — utan att ni blir utvecklare.
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 22, color: "#9a948c" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 22, color: "#818181" }}>
           <span>webble.se</span>
           <span>Sverige · Italien · globalt</span>
         </div>

@@ -5,7 +5,7 @@ export function CaseCard({ entry, large = false }: { entry: CaseStudy; large?: b
   return (
     <Link
       href={`/case/${entry.slug}`}
-      className={`group relative flex min-h-64 flex-col justify-end overflow-hidden border border-line bg-ink-soft p-5 transition hover:border-red sm:min-h-72 sm:p-6 md:p-8 ${
+      className={`group relative flex min-h-64 flex-col justify-end overflow-hidden border border-line bg-paper p-5 transition hover:border-red sm:min-h-72 sm:p-6 md:p-8 ${
         large ? "md:min-h-96" : ""
       }`}
     >

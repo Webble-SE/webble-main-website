@@ -13,7 +13,11 @@ export function CtaBand() {
             Berätta vad ni behöver. Vi gör det begripligt.
           </h2>
         </div>
-        <ButtonLink href="/kontakt" className="shrink-0 border-white text-white hover:bg-white hover:text-red">
+        <ButtonLink
+          href="/kontakt"
+          variant="onDark"
+          className="shrink-0 border-white hover:bg-white hover:text-red"
+        >
           Boka ett samtal
         </ButtonLink>
       </Container>
