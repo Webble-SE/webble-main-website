@@ -1,62 +1,45 @@
 # Webble.se
 
-Main website of Webble agency in Sweden
+Huvudwebbplatsen för Webble — webbyrå i Sverige, med närvaro i Italien och globalt.
 
-## Client
+Sajten är ombyggd 2026 till **Next.js 16** med App Router: sidor renderas på servern, med interaktiva öar för meny, skrivmaskin i hero och kontaktformulär.
 
-Consists of a React Application
+## Stack
 
-## Server-API
+- Next.js 16.3, React 19, TypeScript
+- Tailwind CSS 4
+- Server Actions + `POST /api/contact` för förfrågningar
+- `GET /api/services` för tjänstedata
+- Docker (Node 22)
 
-Built with Express.js
+## Utveckling
 
-## Development
+```bash
+npm install
+npm run dev
+```
 
-Docker Compose is used to run all the services in the local environment. \
-All the services can be found in the docker-compose.yml file.
+Öppna [http://localhost:3000](http://localhost:3000).
 
-**Note:** The images must be rebuilt when a new package is installed with NPM as the packages (node_modules) are installed in the Dockerfile (Dockerfile.dev), but 
-also when changes are made to the init-files of databases (like the init.sql for mySQL) and changes to the models used by the database.
+```bash
+docker compose up --build
+```
 
-### How to start the application locally
+## Produktion
 
-To start the application locally, both the backend and frontend and the database, a shellscript-file has been created callöed docker-init.sh which lies in the root of the application.
-To run it simply enter "./docker-init.sh" in the terminal when in the root of the application.
-### Some Docker Compose commands
+```bash
+npm run build
+npm start
+```
 
-Start all services in detached mode:
-- *docker-compose up -d*
+Docker-imagen (`Dockerfile`) använder Next.js `standalone`-output.
 
-Stop all services and remove all volumes:
-- *docker-compose down --volumes* 
+## Innehåll
 
-List all services:
-- *docker-compose ps*
+Tjänster, case och copy ligger i `src/lib/`. Kontaktförfrågningar sparas i `data/inquiries.json` (gitignore:ad).
 
-Build one service without cache:
-- *docker-compose build <SERVICE_NAME> --no-cache*
+## Kontakt
 
-Build all services without cache:
-- *docker-compose build --no-cache*
-
-### Some Docker commands related to troubleshooting
-
-List all containers:
-- *docker container ls*
-
-List all volumes:
-- *docker volume ls*
-
-Clean up unused resources:
-- *docker system prune -a*
-
-Remove all containers: 
-- *docker rm -f $(docker ps -a -q)*
-
-Remove all volumes:
-- *docker volume rm $(docker volume ls -q)*
-
-### Linting and testing
-Run `npm test`to execute all tests (currently only on the client side) and lint code with ts-standard
-
-Run `npm run lint:fix` to auto fix all auto-fixable code style errors (currently only on client side).
+- Sverige: [info@webble.se](mailto:info@webble.se) · +46 708-14 94 66
+- Italien: [info@webble.it](mailto:info@webble.it)
+- Globalt: [info@webble.io](mailto:info@webble.io)
