@@ -22,7 +22,7 @@ npm run dev
 Öppna [http://localhost:3000](http://localhost:3000).
 
 ```bash
-docker compose up --build
+docker compose -f docker-compose.dev.yml up --build
 ```
 
 ## Produktion
@@ -33,6 +33,9 @@ npm start
 ```
 
 Docker-imagen (`Dockerfile`) använder Next.js `standalone`-output.
+`docker-compose.yml` är produktionskonfigurationen för Dokploy. Webbappen lyssnar på
+containerport `3000` via `dokploy-network`; konfigurera Dokploy-domänen mot tjänsten
+`web` på port `3000`.
 
 ## Innehåll
 
