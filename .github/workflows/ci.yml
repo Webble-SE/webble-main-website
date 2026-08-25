@@ -5,6 +5,7 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -23,3 +24,24 @@ jobs:
       - run: npm run build
       - name: Build Docker image
         run: docker build --tag webble-main-website:test .
+
+  deploy:
+    name: Dokploy
+    needs: check
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Dokploy compose deploy
+        env:
+          WEBHOOK_URL: ${{ secrets.DOKPLOY_WEBHOOK_URL }}
+        run: |
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "::error::Missing repository secret DOKPLOY_WEBHOOK_URL."
+            exit 1
+          fi
+          curl -fsS -X POST "$WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -H "X-GitHub-Event: push" \
+            --data "{\"ref\":\"refs/heads/master\",\"repository\":{\"full_name\":\"${GITHUB_REPOSITORY}\"}}" \
+            --fail-with-body
+          echo "Dokploy redeploy triggered."
